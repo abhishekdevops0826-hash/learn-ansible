@@ -1,0 +1,11 @@
+<student> 
+    <firstname> Abhishek </firstname>
+    <lastname> Mamidi </lastname>
+    <dob>12-07-1986</dob>
+     <addresses>
+        <address type = temporary>
+            <door> 204 </door>
+            <street> subhash nagar</street>
+          </address>
+     </addresses>
+</student>
