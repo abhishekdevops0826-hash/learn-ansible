@@ -9,6 +9,6 @@
       msg: "i have got property of {{property}} from my thatha"
   - name: print the vars again
     vars:
-    property: "20acres"
+      property: "20acres"
     debug:
       msg: "i have got property of {{property}} from my thatha"
