@@ -4,10 +4,11 @@
   vars_promt:
   - name: username
     prompt: please enter your username
-    private: false
+    private:  false
+    
   - name: password
     prompt: please enter your password
-    private: true
+    private:  true
   tasks:  
   - name: print confidential onfo
     debug:  
