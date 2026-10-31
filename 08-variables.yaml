@@ -5,10 +5,10 @@
   - name: username
     prompt: please enter your username
     private: false
- - name: password
+  - name: password
     prompt: please enter your password
     private: true
-  tasks:  
+    tasks:  
   - name: print confidential onfo
     debug:  
       msg:  "username is {{username}}, passwrod is {{password}}"
