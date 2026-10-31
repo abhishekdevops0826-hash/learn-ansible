@@ -2,5 +2,5 @@
   hosts: local # target ansible itself
   connection: local  # it will not expect credentials
   tasks: # tasks == modules or collections
-  - name: ping local
+  - name: ping localhost
     ping: 
