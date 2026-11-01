@@ -1,0 +1,6 @@
+- name: variables from inventory
+  hosts: frontend
+  tasks:
+  - name: print the variables
+    debug:
+      msg: "username is {{username}}, passwrod is {{password}}
