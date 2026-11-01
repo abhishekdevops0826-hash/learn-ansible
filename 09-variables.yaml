@@ -3,4 +3,4 @@
   tasks:
   - name: print the variables
     debug:
-      msg: "username is {{trainer}}and is {{duration}}
+      msg: "username is {{trainer}}and is {{duration}}""
